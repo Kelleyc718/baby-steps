@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  font-size: 100%;
+  background: #ddd;
+}
+
+header {
+	text-align: center;
+	font: 3em "Clicker Script", cursive;
+  margin: 0;
+  background: #6EBFBD;
+}
+
+/*/////// MEDIA ////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*////////// FIXES //////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+  	vertical-align: center;
+  	padding: 0;
+  	font-size: 3em;
+  	background: #6EBFBD;
+}
